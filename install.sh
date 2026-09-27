@@ -2,8 +2,8 @@
 # Put Jungey Notepad on this computer, for your account: the jungey-notepad command (which
 # Jungey uses to read and write notes), and Jungey Notepad in the app menu. No root needed.
 #
-#   apps/notepad/install.sh              build and install
-#   apps/notepad/install.sh --uninstall  take it away again (the notes themselves stay)
+#   ./install.sh              build and install
+#   ./install.sh --uninstall  take it away again (the notes themselves stay)
 set -euo pipefail
 
 here="$(cd "$(dirname "$0")" && pwd)"
