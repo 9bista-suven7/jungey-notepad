@@ -10,12 +10,12 @@ show up here too. Any editor, `grep` or sync tool works on the same files.
 ## Install
 
 ```bash
-apps/notepad/install.sh
+./install.sh
 ```
 
 That builds it and adds the `jungey-notepad` command and **Jungey Notepad** to the app menu,
 for your account. It also offers itself for opening `.md` and `.txt` files.
-`apps/notepad/install.sh --uninstall` takes it away again; the notes stay where they are.
+`./install.sh --uninstall` takes it away again; the notes stay where they are.
 
 ## The window
 
